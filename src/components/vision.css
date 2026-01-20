@@ -1,0 +1,358 @@
+
+/* MAIN WRAPPER */
+.vision-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 20rem;
+  margin-top: 5rem;
+}
+
+/* LEFT SIDE */
+.vision-left {
+  flex: 1;
+}
+
+/* circle + text side-by-side */
+.vision-left-top {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.vision-icon-circle {
+  width: 80px;
+  height: 80px;
+  background: #ff6b81;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vision-icon-circle img {
+  width: 80px;
+  height: 80px;
+}
+
+.vision-text-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.vision-main-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  color: #222;
+  margin: 0;
+}
+
+.vision-subtext {
+  margin-top: 5px;
+  color: #121111;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.vision-description {
+  font-size: 1rem;
+  color: #1d1d1d;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+  max-width: 520px;
+}
+
+/* POINTS */
+.vision-points {
+  display: flex;
+  gap: 3rem;
+  margin-top: 1rem;
+}
+
+.vision-point {
+  text-align: center;
+  width: 120px;
+}
+
+.point-icon {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.vision-point p {
+  font-size: 0.9rem;
+  color: #444;
+}
+
+/* RIGHT SIDE */
+.vision-right {
+  flex: 1;
+  text-align: right;
+  
+}
+
+.vision-illustration {
+  width: 190%;
+  max-width: 550px;
+  height: 70vh;
+  display: block;
+  margin-left: auto;
+}
+
+/* ==================== CORE VALUES SECTION ==================== */
+.core-values-section {
+  background: #ffffff;
+  padding: 4rem 10rem;
+  text-align: center;
+}
+
+.core-values-title {
+  font-size: 2.3rem;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  color: #222;
+  margin-bottom: 4rem;
+}
+
+.core-values-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.core-value-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1.5rem;
+}
+
+.core-value-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #e6f0ff;       /* light blue circle */
+  color: #0066ff;            /* blue icon color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  box-shadow: 0 8px 20px rgba(0, 102, 255, 0.25);
+  margin-bottom: 1.3rem;
+}
+
+.core-value-heading {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 0.8rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.core-value-text {
+  font-size: 0.9rem;
+  color: #1f1e1e;
+  line-height: 1.6;
+  max-width: 320px;
+}
+
+
+
+
+/* ================= MOBILE VIEW ================= */
+@media (max-width: 768px) {
+
+  .vision-wrapper {
+    flex-direction: column;
+    padding: 2rem 2rem;
+    text-align: center;
+  }
+
+  .vision-left-top {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .vision-icon-circle {
+    width: 90px;
+    height: 90px;
+  }
+
+  .vision-bulb-icon {
+    font-size: 36px;
+  }
+
+  .vision-main-heading {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .vision-subtext {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  .vision-description {
+    font-size: 1rem;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  /* Points responsive */
+  .vision-points {
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
+  }
+
+  .vision-point {
+    width: 100%;
+  }
+
+  .icon-circle-small {
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+  }
+
+  /* Right image */
+  .vision-right {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .vision-illustration {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  /* Core Values section on mobile */
+  .core-values-section {
+    padding: 3rem 2rem;
+  }
+
+  .core-values-title {
+    font-size: 2rem;
+  }
+
+  .core-values-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .core-value-icon {
+    width: 70px;
+    height: 70px;
+    font-size: 1.8rem;
+  }
+
+  .core-value-heading {
+    font-size: 1.3rem;
+  }
+
+  .core-value-text {
+    font-size: 0.95rem;
+  }
+}
+
+
+/* ================= TABLET VIEW ================= */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .vision-wrapper {
+    padding: 2rem 5rem;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .vision-left-top {
+    justify-content: center;
+  }
+
+  .vision-main-heading {
+    font-size: 2.2rem;
+  }
+
+  .vision-description {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .vision-points {
+    gap: 2rem;
+  }
+
+  .vision-right {
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .vision-illustration {
+    width: 70%;
+  }
+
+  .core-values-section {
+    padding: 3rem 4rem;
+  }
+
+  .core-values-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+
+
+/* ================= LARGE DESKTOP VIEW ================= */
+@media (min-width: 1440px) {
+
+  .vision-wrapper {
+    padding: 3rem 25rem;
+  }
+
+  .core-values-section {
+    padding: 5rem 20rem;
+  }
+
+  .core-values-grid {
+    gap: 4rem;
+  }
+}
+
+
+/* ================= SMALL MOBILE FIXES ================= */
+@media (max-width: 460px) {
+
+  .vision-main-heading {
+    font-size: 1.6rem;
+  }
+
+  .vision-subtext {
+    font-size: 1rem;
+  }
+
+  .vision-description {
+    font-size: 0.9rem;
+  }
+
+  .icon-circle-small {
+    width: 45px;
+    height: 45px;
+    font-size: 1.2rem;
+  }
+
+  .core-values-title {
+    font-size: 1.7rem;
+  }
+
+  .core-value-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+  }
+}
