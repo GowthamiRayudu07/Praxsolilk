@@ -30,12 +30,12 @@ const Footer = () => {
             engineering services, digital transformation, and industry-focused
             products to help businesses accelerate growth.
           </p>
-          <div className="footer-social">
-            <a href="/"><FaFacebookF /></a>
-            <a href="/"><FaTwitter /></a>
-            <a href="/"><FaInstagram /></a>
-            <a href="/"><FaLinkedinIn /></a>
-          </div>
+         <div className="footer-social">
+  <a href="https://facebook.com" target="_blank" rel="noreferrer"><FaFacebookF /></a>
+  <a href="https://twitter.com" target="_blank" rel="noreferrer"><FaTwitter /></a>
+  <a href="https://instagram.com" target="_blank" rel="noreferrer"><FaInstagram /></a>
+  <a href="https://linkedin.com" target="_blank" rel="noreferrer"><FaLinkedinIn /></a>
+</div>
         </div>
 
         <div className="footer-links">
