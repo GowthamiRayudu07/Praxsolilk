@@ -31,10 +31,10 @@ const Footer = () => {
             products to help businesses accelerate growth.
           </p>
           <div className="footer-social">
-            <a href="#"><FaFacebookF /></a>
-            <a href="#"><FaTwitter /></a>
-            <a href="#"><FaInstagram /></a>
-            <a href="#"><FaLinkedinIn /></a>
+            <a href="/"><FaFacebookF /></a>
+            <a href="/"><FaTwitter /></a>
+            <a href="/"><FaInstagram /></a>
+            <a href="/"><FaLinkedinIn /></a>
           </div>
         </div>
 
