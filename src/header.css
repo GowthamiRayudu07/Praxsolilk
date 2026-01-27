@@ -44,7 +44,7 @@
 /* ================== MAIN HEADER ================== */
 .header {
   width: 100%;
-  height: 100px;
+  height: 120px;
   background-color: white;
   position: fixed;
   top: 50px;
@@ -70,8 +70,9 @@
 }
 
 .logo-img {
-  height: 80px;
-  width: 80px;
+  height: 100px;
+  width: auto;
+  max-height: 100px;
   object-fit: contain;
   animation: spin 8s linear infinite;
 }
@@ -182,8 +183,8 @@
   }
 
   .logo-img {
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: auto;
   }
 
   .gradient-text {

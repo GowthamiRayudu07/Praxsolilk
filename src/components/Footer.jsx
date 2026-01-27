@@ -18,7 +18,7 @@ const Footer = () => {
         <div className="footer-brand">
           <div className="brand-flex">
             <div className="logo-circle">
-              <img src="/footerlogo.png" alt="Praxsol Logo" className="footer-logo" />
+              <img src="/footerlogoilk.png" alt="Praxsol Logo" className="footer-logo" />
             </div>
             <div className="brand-info">
               <h3>Praxsol Innologikodes</h3>

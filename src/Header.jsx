@@ -30,7 +30,7 @@ function Header() {
       <header className={`header ${scrolled ? "fixed-top" : ""}`}>
         <div className="header-left">
           <img
-            src={`${process.env.PUBLIC_URL}/CompanyLogo.png`}
+            src={`${process.env.PUBLIC_URL}/Praxsolilklogo.png`}
             alt="Company Logo"
             className="logo-img spin-logo"
           />
